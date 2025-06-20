@@ -17,7 +17,7 @@ const CartModal = ({cart,closeModal,removeFromCart}) => {
                                     <h3>{item.title}</h3>
                                     <p>${item.price}</p>
                                 </div>
-                                <button onClick={()=>removeFromCart(item.id)} className='bg-cyan-900 text-white px-3 py-1 rounded hover:bg-cyan-300'>Remove</button>
+                                <button onClick={()=>removeFromCart(item.id)} className='bg-cyan-900 text-white px-3 py-1 rounded hover:bg-cyan-500'>Remove From Cart</button>
                                 </li>
                             )
                         })}

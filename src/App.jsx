@@ -21,7 +21,7 @@ const App = () => {
 const addToCart =(product) =>{
     const productInCart = cart.find((item)=> item.id === product.id)
     if (productInCart){
-      alert("Product Already In The Cart")
+      alert("Item already added to the cart")
     }
     else{
       setCart([...cart,product])
